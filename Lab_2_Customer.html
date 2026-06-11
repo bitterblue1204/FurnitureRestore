@@ -1,0 +1,120 @@
+<!--Lab 2 Customer
+    Created by : Diana Gomez-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location & Contact </title>
+
+    <link rel="stylesheet" href="Lab_2_Style.css">
+</head>
+</head>
+<body>
+    <header> 
+            <nav class="navbar">
+                <div class = "container">
+                    <div class = "Buisness-title"> 
+                        <p>Ceader Furniture Restoration</p>
+                </div>
+                
+                <div class = "main-menu">
+                    <ul>
+                        <li>
+                            <a href="Lab_2.html"> Home</a>
+                        </li>
+                        <li> 
+                            <a href="Lab_2Location.html">Location</a>
+                        </li>
+                        <li>
+                            <a href="Lab_2Catalog.html">Catalog</a>
+                        </li>
+                        <li>
+                            <a href="Lab_2_Customer.html">Customer Information</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    </header>
+    
+    <main>
+        <section class="page-hero">
+            <h1> Customer Information </h1>
+            <p> Be part of our mailing list to see the newest furniture available!</p>
+        </section>
+
+        <section class="customer-info">
+            <div class="container">
+                    <h2 class="section-title">Join our Mailing List</h2>
+                    <div class="divider"></div>
+            </div>
+            <form>
+                <h2>Create a Customer Account</h2>
+
+                <label for="fname">First Name:</label>
+                <input type="text" name="fname">
+
+                <label for="lname">Last Name:</label>
+                <input type="text" name="lname">
+
+                <label for="email"> Email Address:</label>
+                <input type="email" id="email">
+
+                <label for="password">Password:</label>
+                <input type="password" id="password">
+
+                <input type="submit" value="Submit">
+            </form>
+
+        </section>
+
+        <section class="customer suggestions">
+            <div class="container">
+                <h2 class="section-title">Suggestions</h2>
+                <div class="divider"></div>
+            </div>
+
+            <form>
+                <p>Have specific type of furniture you want to see more of?</p>
+                <label for="FurnitureType">Furniture Type</label>
+                <input list="FurnitureType" id="FurnitureType">
+                <datalist id="FurnitureType">
+                    <option value="Desk"></option>
+                    <option value="Coffee Table"></option>
+                    <option value="Dinning Table"></option>
+                    <option value="Wardrobe"></option>
+                    <option value="Dresser"></option>
+                    <option value="Nightstand"></option>
+                    <option value="Cabinet"></option>
+                    <option value="Cupboard"></option>
+                    <option value="Bookshelf"></option>
+                    <option value="Chair"></option>
+                </datalist>
+
+                <label for="WoodType">Wood Type</label>
+                <input list="WoodType" id="WoodType">
+
+                <datalist id="FurnitureType">
+                    <option value="Oak"></option>
+                    <option value="Maple"></option>
+                    <option value="Cherry"></option>
+                    <option value="Walnut"></option>
+                    <option value="Cedar"></option>
+                    <option value="Pine"></option>
+                    <option value="Mahogany"></option>
+                    <option value="Birch"></option>
+                    <option value="Redwood"></option>
+                </datalist>
+            </form>
+            
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>© 2026 Cedar Furniture Restoration</p>
+    </footer>
+
+</body>
+</html>
